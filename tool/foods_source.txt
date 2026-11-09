@@ -411,3 +411,174 @@ Proteína whey en polvo|Suplementos|380|78|6|5|0||cacito:30
 Proteína vegana en polvo|Suplementos|380|75|7|6|3||cacito:30
 Caseína en polvo|Suplementos|360|80|5|2|0||cacito:30
 Ganador de peso (gainer)|Suplementos|380|20|70|3|2||cacito:100
+## Tostadas y desayunos (por 100 g del conjunto)
+Tostada con atún|Desayunos y tostadas|262|13.8|34|7|2||tostada (media barra):186;media tostada:93
+Tostada con aceite de oliva|Desayunos y tostadas|310|8.3|47|9|2.8||tostada (media barra):135;media tostada:68
+Tostada con jamón serrano y tomate|Desayunos y tostadas|238|10.8|34|5.7|1.8||tostada (media barra):190;media tostada:95
+Tostada con aguacate|Desayunos y tostadas|235|6.3|32|8.1|4||tostada (media barra):203;media tostada:100
+Tostada con mantequilla y mermelada|Desayunos y tostadas|294|7.3|49|6.6|2.5||tostada (media barra):155;media tostada:78
+Tostada con queso fresco y pavo|Desayunos y tostadas|221|11|34|4|1.6||tostada (media barra):195;media tostada:98
+Tostada con crema de cacahuete y plátano|Desayunos y tostadas|237|7.9|39|4.9|3.5||tostada (media barra):200;media tostada:100
+Tostada con huevo|Desayunos y tostadas|243|10.5|35|6|1.8||tostada (media barra):185;media tostada:93
+Tostada con salmón ahumado y queso crema|Desayunos y tostadas|244|11.4|35|5.6|1.7||tostada (media barra):185;media tostada:93
+Pan tostado (tostada sola)|Desayunos y tostadas|265|9|51|1.6|3||tostada (media barra):125;media tostada:63;rebanada de molde:25
+Cola Cao con leche|Desayunos y tostadas|65|3.2|8.9|1.7|0.3|L|vaso:265
+Porridge de avena con leche|Desayunos y tostadas|100|4.8|13.7|2.5|1.7||bol:240
+## Panes
+Pan de pueblo / hogaza|Pan y cereales|260|8.5|51|1.5|3.5||rebanada:50
+Chapata|Pan y cereales|270|9|52|2.5|2.5||unidad:100;media:50
+Mollete|Pan y cereales|270|8.5|52|3|2.5||unidad:90
+Pan de centeno|Pan y cereales|240|8|45|1.5|7||rebanada:35
+Pan sin gluten|Pan y cereales|260|3|48|6|5||rebanada:30
+Panecillo / bollito de pan|Pan y cereales|270|9|52|2|2.5||unidad:40
+Pan de leche|Pan y cereales|330|9|52|9|2||unidad:35
+Bagel|Pan y cereales|260|10|50|1.5|2.5||unidad:90
+Pan de semillas / multicereales|Pan y cereales|270|11|40|7|7||rebanada:35
+Regañás|Pan y cereales|430|11|68|12|3||unidad:6
+Tortilla de maíz (taco)|Pan y cereales|220|5.7|45|2.8|6||unidad:30
+Pasta fresca rellena (tortellini)|Pan y cereales|290|11|45|7|2.5||ración:125
+Ñoquis|Pan y cereales|150|3.5|32|0.5|1.5||ración:200
+Cuscús cocido|Pan y cereales|112|3.8|23|0.2|1.4||plato:180
+Bulgur (crudo)|Pan y cereales|342|12|64|1.3|12||ración en crudo:70
+Cereales integrales tipo All-Bran|Pan y cereales|330|14|48|3.5|27||ración:40
+Cereales de chocolate|Pan y cereales|390|8|77|4.5|6.5||ración:30;bol:40
+## Bocadillos y sándwiches
+Bocadillo de atún|Bocadillos|243|14.7|34|4.6|2||bocadillo (1/3 barra):120;bocadillo (media barra):190
+Bocadillo de lomo|Bocadillos|250|16.7|31|5.9|1.9||bocadillo (1/3 barra):133;bocadillo (media barra):210
+Bocadillo de chorizo|Bocadillos|328|14|35|14|2||bocadillo (1/3 barra):120
+Bocadillo de calamares|Bocadillos|245|10|33|7.7|1.7||bocadillo:180
+Bocadillo de pechuga de pollo|Bocadillos|218|19|27|2.5|1.6||bocadillo (1/3 barra):150
+Bocadillo de queso|Bocadillos|303|14.3|34|11.4|2||bocadillo (1/3 barra):120
+Sándwich de pavo y queso|Bocadillos|238|14.4|25|8.2|1.6||unidad:94
+Serranito|Bocadillos|250|15|26|9|2||unidad:200
+Montadito de lomo|Bocadillos|250|14|28|9|1.8||unidad:70
+Wrap de pollo|Bocadillos|210|12|22|8|2||unidad:200
+## Más platos
+Arroz con pollo|Platos preparados|150|9|18|4.5|0.8||plato:350
+Arroz con verduras|Platos preparados|130|3|22|3.5|1.5||plato:300
+Arroz negro|Platos preparados|160|7|21|5.5|0.5||plato:300
+Fideuá|Platos preparados|170|8|20|6.5|1||plato:300
+Caldero|Platos preparados|150|9|19|4|0.5||plato:350
+Lentejas con chorizo|Platos preparados|130|7|12|6|4||plato:350
+Garbanzos con espinacas|Platos preparados|120|6|13|4.5|5||plato:300
+Cocido con pelotas|Platos preparados|140|10|8|7.5|2.5||plato:400
+Michirones|Platos preparados|140|8|12|6.5|5||plato:300
+Zarangollo|Platos preparados|90|2|6|6.5|1.5||ración:200
+Pastel de carne murciano|Platos preparados|330|12|28|19|1.5||unidad:180
+Marinera (rosquilla con ensaladilla y anchoa)|Platos preparados|210|5|16|14|1||unidad:75
+Huevos fritos con patatas|Platos preparados|230|7|18|15|2||plato:300
+Pollo al horno con patatas|Platos preparados|160|13|9|8|1||plato:400
+Filete empanado|Platos preparados|250|18|14|13.5|0.8||unidad:150
+San Jacobo|Platos preparados|270|14|18|16|0.8||unidad:120
+Flamenquín|Platos preparados|290|15|18|18|0.8||unidad:150
+Merluza rebozada|Platos preparados|200|13|10|12|0.5||filete:150
+Boquerones fritos|Platos preparados|260|20|8|17|0.3||ración:150
+Pescaíto frito variado|Platos preparados|250|18|9|16|0.3||ración:200
+Chopitos fritos|Platos preparados|250|14|15|15|0.5||ración:150
+Sepia a la plancha|Platos preparados|100|18|1|2.5|0||ración:150
+Canelones|Platos preparados|160|7|15|8|1||ración:300
+Espaguetis con tomate|Platos preparados|140|4.5|24|3|2||plato:300
+Pasta con atún y tomate|Platos preparados|150|8|21|4|1.5||plato:300
+Ensalada de arroz|Platos preparados|150|4|20|6|1.2||plato:300
+Ensalada de atún|Platos preparados|110|9|4.5|6.5|1.5||plato:350
+Ensalada de pollo|Platos preparados|120|10|5|7|1.5||plato:300
+Ensalada de queso de cabra|Platos preparados|180|6|9|13.5|1.5||plato:250
+Pizza cuatro quesos|Platos preparados|290|13|28|14|1.8||porción:110;pizza mediana:450
+Pizza jamón y queso|Platos preparados|260|12|30|10|1.8||porción:110;pizza mediana:450
+Lasaña de verduras|Platos preparados|120|5|13|5.5|1.5||ración:300
+Tacos de carne|Platos preparados|210|11|18|10|2.5||unidad:100
+Nachos con queso|Platos preparados|320|8|30|19|3||ración:150
+Alitas de pollo fritas o barbacoa|Platos preparados|250|20|5|17|0.2||alita:35
+Costillas a la barbacoa|Platos preparados|300|20|8|21|0.3||ración:250
+Hamburguesa casera de ternera (hecha)|Platos preparados|250|23|1|17|0||unidad:100
+Gyozas|Platos preparados|190|7|25|6.5|1.5||unidad:20
+Rollito de primavera|Platos preparados|220|5|25|11|2||unidad:70
+Pollo agridulce|Platos preparados|190|12|18|7.5|0.6||ración:250
+Ramen|Platos preparados|90|4.5|11|3|0.6||bol:500
+Callos|Platos preparados|150|13|3|9.5|0.5||ración:250
+Migas|Platos preparados|280|6|30|15|2||plato:250
+Revuelto de setas|Platos preparados|140|8|2|11|1||ración:200
+Puré de patatas|Platos preparados|90|2|13|3.5|1.3||ración:200
+Patatas a lo pobre|Platos preparados|160|2|16|10|2||ración:200
+Patatas alioli|Platos preparados|200|1.8|14|15|1.5||ración:200
+Verduras a la plancha|Platos preparados|50|1.5|5|2.5|2.5||plato:250
+Champiñones al ajillo|Platos preparados|90|3|2.5|7.5|1.5||ración:150
+Pincho moruno|Platos preparados|200|22|1|12|0.3||brocheta:80
+Estofado de ternera|Platos preparados|140|14|5|7|1||ración:250
+Falafel|Platos preparados|330|13|30|18|5||unidad:20
+Patatas fritas congeladas (horno o airfryer)|Platos preparados|150|2.5|22|5|2.5||ración:150
+## Más carnes, embutidos y pescados
+Pollo asado sin piel|Carnes|170|28|0|6.5|0||ración:150
+Muslo de pollo asado sin piel|Carnes|190|26|0|9.5|0||muslo:90
+Hamburguesa de pavo|Carnes|140|19|2|6.5|0||unidad:100
+Presa ibérica|Carnes|280|18|0|23|0||ración:150
+Pluma ibérica|Carnes|300|17|0|26|0||ración:150
+Cinta de lomo adobada|Carnes|160|20|1|8.5|0||filete:90
+Kebab, carne (sin pan)|Carnes|220|18|2|15|0||ración:150
+Proteína vegetal (tipo Heura)|Carnes|140|20|3|5|4||ración:100
+Chistorra|Embutidos|450|18|1.5|41|0||ración:50
+Butifarra|Embutidos|280|15|1|24|0||unidad:100
+Longaniza|Embutidos|300|15|1|26|0||unidad:60
+Salchichas de pavo|Embutidos|140|13|4|8|0||unidad:40
+Mojama|Pescados|280|50|0|8.5|0||ración:30
+Melva en aceite (escurrida)|Pescados|190|24|0|10.5|0||lata escurrida:80
+Ventresca de atún (escurrida)|Pescados|260|24|0|18|0||lata escurrida:80
+Sardinas en tomate (lata)|Pescados|180|18|3|11|0||lata:85
+Navajas|Pescados|75|15|2|0.8|0||ración:100
+Gulas|Pescados|110|12|7|4|0||ración:100
+## Más lácteos
+Skyr natural|Lácteos|63|11|4|0.2|0||unidad:150
+Queso fresco 0%|Lácteos|75|13|3.5|0.5|0||ración:60
+Queso brie|Lácteos|330|21|0.5|27|0||porción:30
+Queso azul|Lácteos|350|21|0.5|29|0||porción:30
+Quesitos en porciones|Lácteos|230|10|6|18|0||quesito:16
+Yogur bebible|Lácteos|75|2.8|12|1.5|0||unidad:200
+Yogur con frutas|Lácteos|95|3|15|2.5|0.3||unidad:125
+Leche fermentada (tipo Actimel)|Lácteos|75|2.7|11.5|1.5|0|L|unidad:100
+Postre lácteo de chocolate|Lácteos|140|3.5|20|5|0.8||unidad:125
+## Más frutas y verduras
+Paraguayo|Frutas|37|0.8|8|0.2|1.5||unidad:120
+Frutas del bosque|Frutas|45|1|8|0.4|4||puñado:50
+Dulce de membrillo|Frutas|260|0.4|64|0.1|1.5||porción:30
+Pimientos asados (conserva)|Verduras|30|1|5|0.3|1.5||ración:100
+Pimientos del piquillo|Verduras|30|1|5|0.3|2||unidad:25
+Tomate seco|Verduras|260|14|44|3|12||unidad:5
+Brotes de soja|Verduras|31|3|4|0.2|1.8||ración:100
+Habas|Verduras|70|5.5|8|0.5|4.2||ración:150
+Alcachofas en conserva|Verduras|30|2|3|0.2|3||unidad:30
+Cogollos de lechuga|Verduras|17|1.3|2|0.2|1.5||unidad:100
+Kale|Verduras|49|4.3|5|0.9|3.6||puñado:30
+Lentejas rojas (crudas)|Legumbres|340|24|50|1.5|11||ración en crudo:70
+## Más dulces y snacks
+Galletas rellenas (tipo Oreo)|Dulces y snacks|480|5|69|20|3||unidad:11
+Barrita de chocolate con galleta (tipo Kit Kat)|Dulces y snacks|520|6.5|60|27|1.5||barrita:20
+Barrita de chocolate y cacahuete (tipo Snickers)|Dulces y snacks|490|9|58|24|2||unidad:50
+Bombones|Dulces y snacks|540|6|55|33|2||unidad:12
+Helado de chocolate|Dulces y snacks|220|4|26|11|1||bola:50
+Polo de hielo|Dulces y snacks|80|0|20|0|0||unidad:60
+Cono de helado (tipo Cornetto)|Dulces y snacks|300|4|34|16|1||unidad:75
+Tarta de manzana|Dulces y snacks|250|3|35|11|1.5||porción:120
+Torrijas|Dulces y snacks|260|6|35|11|1||unidad:100
+Roscón de Reyes|Dulces y snacks|360|7|52|13|1.5||porción:100
+Mantecado|Dulces y snacks|520|5|55|31|1.5||unidad:30
+Muffin|Dulces y snacks|410|5.5|50|21|1.5||unidad:100
+Galletas de arroz con chocolate|Dulces y snacks|480|6|64|22|3||unidad:17
+Frutos secos fritos (cóctel)|Frutos secos|600|18|18|50|6||puñado:30
+Pipas con cáscara|Frutos secos|300|10|6|26|4.5||bolsa pequeña:50
+## Más bebidas y salsas
+Horchata|Bebidas|70|0.5|13|2|0.5|L|vaso:250
+Granizado de limón|Bebidas|60|0|15|0|0|L|vaso:250
+Batido de proteínas (bebida preparada)|Bebidas|60|8|4|1.2|0|L|botella:330
+Kombucha|Bebidas|15|0|3.5|0|0|L|botella:330
+Zumo de tomate|Bebidas|17|0.8|3|0|0.5|L|vaso:200
+Té frío (tipo Nestea)|Bebidas|30|0|7.5|0|0|L|lata:330
+Tónica|Bebidas|35|0|8.5|0|0|L|botella:200
+Gaseosa|Bebidas|1|0|0|0|0|L|vaso:250
+Licor (pacharán, 43…)|Bebidas|300|0|30|0|0|L|chupito:40
+Café bombón|Bebidas|120|3|18|3.5|0|L|taza:100
+Smoothie de frutas|Bebidas|55|0.7|12.5|0.2|1|L|vaso:250
+Salsa de queso|Aceites y salsas|200|6|6|17|0||cucharada:20
+Salsa sweet chili|Aceites y salsas|220|0.5|53|0.5|0.5||cucharada:15
+Salsa mostaza y miel|Aceites y salsas|330|1.5|25|24|0.5||cucharada:15
+Tahini|Aceites y salsas|600|17|10|54|9||cucharada:15
+Sofrito de tomate|Aceites y salsas|100|1.5|8|7|1.5||cucharada:20

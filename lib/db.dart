@@ -14,7 +14,9 @@ class Db {
     final dir = await getDatabasesPath();
     db = await openDatabase(
       p.join(dir, 'balance.db'),
-      version: 1,
+      // Subir la versión cada vez que se amplíe assets/foods_es.json: se añaden los genéricos nuevos.
+      version: 2,
+      onUpgrade: (d, oldV, newV) async => _seed(d),
       onCreate: (d, v) async {
         await d.execute('''CREATE TABLE foods(
           id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT NOT NULL, name_norm TEXT, brand TEXT, barcode TEXT,
@@ -39,12 +41,15 @@ class Db {
     );
   }
 
+  /// Inserta los alimentos genéricos del asset que aún no estén (por nombre); no toca los existentes.
   static Future<void> _seed(Database d) async {
     final raw = await rootBundle.loadString('assets/foods_es.json');
     final list = jsonDecode(raw) as List;
+    final existing = (await d.query('foods', columns: ['name'], where: "source = 'base'")).map((r) => r['name'] as String).toSet();
     final b = d.batch();
     for (final o in list) {
       final m = o as Map<String, dynamic>;
+      if (existing.contains(m['n'])) continue;
       final f = Food(
         name: m['n'] as String,
         category: m['c'] as String,
