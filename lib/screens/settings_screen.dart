@@ -113,7 +113,7 @@ class SettingsScreen extends StatelessWidget {
       final dir = await getTemporaryDirectory();
       final file = File('${dir.path}/balance-copia-${dkey(today())}.json');
       await file.writeAsString(jsonEncode(data));
-      await Share.shareXFiles([XFile(file.path)], text: 'Copia de seguridad de Balance ${fmtLong(today())}');
+      await SharePlus.instance.share(ShareParams(files: [XFile(file.path)], text: 'Copia de seguridad de Balance ${fmtLong(today())}'));
     } catch (e) {
       if (context.mounted) toast(context, 'No se pudo exportar: $e');
     }
@@ -121,10 +121,9 @@ class SettingsScreen extends StatelessWidget {
 
   Future<void> _import(BuildContext context) async {
     try {
-      final res = await FilePicker.platform.pickFiles(type: FileType.any);
-      final path = res?.files.single.path;
-      if (path == null) return;
-      final data = jsonDecode(await File(path).readAsString()) as Map<String, dynamic>;
+      final files = await FilePicker.pickFiles(type: FileType.any);
+      if (files.isEmpty) return;
+      final data = jsonDecode(utf8.decode(await files.first.readAsBytes())) as Map<String, dynamic>;
       if (data['app'] != 'balance' || data['db'] is! Map) {
         if (context.mounted) toast(context, 'Ese archivo no es una copia de Balance');
         return;
