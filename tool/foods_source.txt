@@ -1,0 +1,413 @@
+# Base de alimentos genéricos (valores aproximados por 100 g o 100 ml de porción comestible)
+# Fuentes de referencia: tablas de composición españolas (BEDCA) y USDA, redondeadas.
+# Formato: nombre | categoría | kcal | proteína | hidratos | grasa | fibra | L si es líquido | raciones (nombre:gramos;...)
+## Frutas
+Manzana|Frutas|52|0.3|12|0.2|2.4||unidad mediana:180
+Pera|Frutas|57|0.4|13|0.1|3.1||unidad mediana:170
+Plátano|Frutas|89|1.1|21|0.3|2.6||unidad mediana (sin piel):120
+Naranja|Frutas|47|0.9|10|0.1|2.4||unidad (pelada):150
+Mandarina|Frutas|53|0.8|12|0.3|1.8||unidad (pelada):70
+Fresas|Frutas|32|0.7|6|0.3|2||unidad:12;tazón:150
+Uvas|Frutas|69|0.7|17|0.2|0.9||uva:5;racimo pequeño:100
+Sandía|Frutas|30|0.6|7.5|0.2|0.4||tajada:300
+Melón|Frutas|34|0.8|8|0.2|0.9||tajada:200
+Piña|Frutas|50|0.5|12|0.1|1.4||rodaja:80
+Kiwi|Frutas|61|1.1|12|0.5|3||unidad:75
+Melocotón|Frutas|39|0.9|9|0.3|1.5||unidad:150
+Nectarina|Frutas|44|1.1|9|0.3|1.7||unidad:140
+Albaricoque|Frutas|48|1.4|9|0.4|2||unidad:40
+Cerezas|Frutas|63|1.1|14|0.2|2.1||cereza:8;puñado:100
+Ciruela|Frutas|46|0.7|10|0.3|1.4||unidad:65
+Mango|Frutas|60|0.8|14|0.4|1.6||unidad (pelado):200
+Aguacate|Frutas|160|2|2|14.7|6.7||unidad (sin hueso ni piel):150;medio:75
+Arándanos|Frutas|57|0.7|12|0.3|2.4||puñado:50
+Frambuesas|Frutas|52|1.2|6|0.7|6.5||puñado:50
+Higos|Frutas|74|0.8|16|0.3|2.9||unidad:50
+Granada|Frutas|83|1.7|14|1.2|4||unidad (comestible):200
+Caqui|Frutas|70|0.6|16|0.2|3.6||unidad:200
+Limón|Frutas|29|1.1|6.5|0.3|2.8||unidad:100;zumo de 1 limón:40
+Pomelo|Frutas|42|0.8|9|0.1|1.6||unidad (pelado):250
+Papaya|Frutas|43|0.5|9.5|0.3|1.7||ración:150
+Coco fresco|Frutas|354|3.3|6|33|9||trozo:40
+Chirimoya|Frutas|75|1.6|15|0.7|3||unidad (comestible):200
+Níspero|Frutas|47|0.4|10|0.2|1.7||unidad:40
+Dátiles secos|Frutas|282|2.5|67|0.4|8||unidad:8
+Pasas|Frutas|299|3.1|75|0.5|3.7||puñado:30
+Ciruelas pasas|Frutas|240|2.2|57|0.4|7.1||unidad:10
+Orejones de albaricoque|Frutas|241|3.4|56|0.5|7.3||unidad:8
+Melocotón en almíbar|Frutas|70|0.5|17|0.1|1.3||mitad:50
+Compota de manzana|Frutas|68|0.2|16|0.1|1.2||tarrina:100
+Macedonia de frutas|Frutas|55|0.6|12.5|0.2|1.5||bol:200
+## Verduras y hortalizas
+Lechuga|Verduras|15|1.4|1.6|0.2|1.3||ración:80;hoja:10
+Canónigos|Verduras|21|2|2|0.4|1.5||ración:50
+Rúcula|Verduras|25|2.6|2|0.7|1.6||puñado:20
+Espinacas|Verduras|23|2.9|1.4|0.4|2.2||ración:100;puñado crudo:30
+Tomate|Verduras|18|0.9|2.7|0.2|1.2||unidad mediana:150
+Tomate cherry|Verduras|18|0.9|2.7|0.2|1.2||unidad:12
+Pepino|Verduras|15|0.7|3.1|0.1|0.5||unidad:200
+Zanahoria|Verduras|41|0.9|6.8|0.2|2.8||unidad:70
+Cebolla|Verduras|40|1.1|7.6|0.1|1.7||unidad:150
+Ajo|Verduras|149|6.4|31|0.5|2.1||diente:5
+Pimiento rojo|Verduras|31|1|4.5|0.3|2.1||unidad:170
+Pimiento verde|Verduras|20|0.9|2.9|0.2|1.7||unidad:150
+Calabacín|Verduras|17|1.2|2.1|0.3|1||unidad:250
+Berenjena|Verduras|25|1|2.9|0.2|3||unidad:300
+Brócoli|Verduras|34|2.8|4|0.4|2.6||ración:150
+Coliflor|Verduras|25|1.9|3|0.3|2||ración:150
+Judías verdes|Verduras|31|1.8|4.3|0.2|2.7||ración:150
+Champiñones|Verduras|22|3.1|2.3|0.3|1||unidad:15;ración:100
+Setas variadas|Verduras|33|3.3|3.7|0.4|2.3||ración:100
+Espárragos verdes|Verduras|20|2.2|1.8|0.1|2.1||unidad:15
+Espárragos blancos (conserva)|Verduras|18|1.8|0.7|0.3|1.5||unidad:20
+Alcachofa|Verduras|47|3.3|5|0.2|5.4||unidad (comestible):50
+Puerro|Verduras|61|1.5|12|0.3|1.8||unidad:150
+Apio|Verduras|16|0.7|1.4|0.2|1.6||rama:40
+Calabaza|Verduras|26|1|6|0.1|0.5||ración:200
+Remolacha cocida|Verduras|44|1.7|8|0.2|2||unidad:80
+Repollo / col|Verduras|25|1.3|3.3|0.1|2.5||ración:150
+Coles de Bruselas|Verduras|43|3.4|5.2|0.3|3.8||unidad:15
+Maíz dulce (conserva)|Verduras|80|2.9|15|1.2|2||lata pequeña escurrida:140;cucharada:15
+Guisantes|Verduras|81|5.4|9.4|0.4|5.1||ración:100
+Patata cruda|Verduras|77|2|15|0.1|2.2||unidad mediana:200
+Patata cocida|Verduras|86|1.7|18|0.1|1.8||unidad mediana:200
+Patata asada / al horno|Verduras|93|2.5|19|0.1|2.2||unidad mediana:200
+Patatas fritas caseras|Verduras|312|3.4|37|15|3.8||ración:150
+Boniato asado|Verduras|90|2|17.5|0.2|3.3||unidad:200
+Ensalada mixta (lechuga, tomate, cebolla)|Verduras|18|1|2.5|0.2|1.5||plato:200
+Aceitunas verdes|Verduras|145|1|0.5|15|3.3||unidad:4;puñado:30
+Aceitunas negras|Verduras|115|0.8|3|10.7|3.2||unidad:4;puñado:30
+Pepinillos en vinagre|Verduras|12|0.5|1.5|0.2|1||unidad:15
+Verduras para salteado (congeladas)|Verduras|35|2|4.5|0.3|2.5||ración:200
+Menestra de verduras|Verduras|40|2.4|4|0.4|3||ración:200
+Pisto|Verduras|70|1.3|6|4|2||ración:150
+Pimientos de Padrón fritos|Verduras|70|1.5|3|5|2||ración:100
+## Legumbres y derivados
+Lentejas (crudas)|Legumbres|336|24|48|1.1|11||ración en crudo:70
+Lentejas cocidas (bote)|Legumbres|100|8|13|0.5|5||ración:200;bote escurrido:250
+Garbanzos (crudos)|Legumbres|364|19|50|6|15||ración en crudo:70
+Garbanzos cocidos (bote)|Legumbres|120|7|15|2.3|5.5||ración:200;bote escurrido:250
+Alubias blancas (crudas)|Legumbres|333|23|40|0.9|15||ración en crudo:70
+Alubias blancas cocidas (bote)|Legumbres|100|6.5|12|0.5|6||ración:200
+Alubias rojas cocidas (bote)|Legumbres|110|8|13|0.5|6.4||ración:200
+Edamame|Legumbres|121|11.9|4|5.2|5.2||ración:100
+Tofu firme|Legumbres|120|13|1.5|7|1||ración:100
+Hummus|Legumbres|260|7|11|19|6||cucharada:20;tarrina:240
+Soja texturizada (seca)|Legumbres|330|50|16|1.5|18||ración en seco:50
+Lentejas estofadas|Legumbres|110|6.5|11|3.5|4||plato:300
+Potaje de garbanzos|Legumbres|120|7|11|4.5|4||plato:350
+Fabada asturiana|Legumbres|160|9|10|9|4.5||plato:350
+Cocido madrileño (completo)|Legumbres|150|11|9|7.5|3.5||plato:400
+## Pan, cereales y harinas
+Pan blanco (barra)|Pan y cereales|265|9|51|1.6|3||rebanada:30;tercio de barra:80;media barra:125;barra:250
+Pan integral|Pan y cereales|245|9.5|41|3.4|7||rebanada:30;tercio de barra:80
+Pan de molde blanco|Pan y cereales|260|8.5|46|3.6|3||rebanada:25
+Pan de molde integral|Pan y cereales|250|10|40|4|6.5||rebanada:28
+Biscotes / pan tostado|Pan y cereales|400|11|72|6|4.5||unidad:8
+Picos de pan|Pan y cereales|410|11|69|9|3||puñado:20
+Tortilla de trigo (wrap)|Pan y cereales|300|8|49|7|2.5||unidad grande:60;unidad pequeña:40
+Pan de pita|Pan y cereales|275|9|54|1.2|2.2||unidad:60
+Pan de hamburguesa|Pan y cereales|270|9|47|4.5|2.5||unidad:60
+Copos de avena|Pan y cereales|372|13.5|59|7|10||ración:40;cucharada:10
+Harina de avena|Pan y cereales|375|13|60|7|9.5||ración:40;cacito:30
+Cereales tipo corn flakes|Pan y cereales|378|7|83|0.9|3||ración:30;bol:40
+Muesli|Pan y cereales|365|9|62|6|7.5||ración:40
+Granola|Pan y cereales|450|10|60|17|7||ración:40
+Arroz blanco (crudo)|Pan y cereales|354|6.7|78|0.6|1.4||ración en crudo:80
+Arroz blanco cocido|Pan y cereales|130|2.7|28|0.3|0.4||plato:200;taza:160
+Arroz integral (crudo)|Pan y cereales|350|7.5|72|2.6|3.5||ración en crudo:80
+Arroz integral cocido|Pan y cereales|123|2.7|24|1|1.6||plato:200
+Arroz basmati (crudo)|Pan y cereales|352|8|77|0.8|1.3||ración en crudo:80
+Pasta (cruda)|Pan y cereales|352|12.5|70|1.5|3||ración en crudo:80
+Pasta cocida|Pan y cereales|158|5.8|30|0.9|1.8||plato:200
+Pasta integral (cruda)|Pan y cereales|340|13|62|2.5|8||ración en crudo:80
+Cuscús (crudo)|Pan y cereales|360|12.8|70|0.6|5||ración en crudo:70
+Quinoa (cruda)|Pan y cereales|368|14|60|6|7||ración en crudo:70
+Quinoa cocida|Pan y cereales|120|4.4|19|1.9|2.8||ración:180
+Fideos de arroz (crudos)|Pan y cereales|360|6|80|0.6|1.5||ración en crudo:70
+Noodles instantáneos|Pan y cereales|450|9|60|19|2.5||sobre:85
+Harina de trigo|Pan y cereales|340|10|71|1.2|3||cucharada:10
+Maicena|Pan y cereales|360|0.3|88|0.1|0.9||cucharada:10
+Pan rallado|Pan y cereales|360|12|69|3|4||cucharada:10
+Tortitas de arroz|Pan y cereales|387|8|80|2.8|3||unidad:8
+Tortitas de maíz|Pan y cereales|380|8|78|3|4||unidad:8
+Palomitas de maíz|Pan y cereales|500|8|55|28|9||ración:30;bolsa microondas:90
+## Bollería, galletas y dulces
+Galletas María|Dulces y snacks|440|7|73|12|2.5||unidad:6
+Galletas digestive|Dulces y snacks|480|7|62|22|3.5||unidad:15
+Galletas con chocolate|Dulces y snacks|500|6|63|24|3||unidad:13
+Croissant|Dulces y snacks|410|8|45|21|2||unidad:60
+Magdalena|Dulces y snacks|450|6|53|23|1||unidad:30
+Bizcocho casero|Dulces y snacks|380|6|55|15|1||porción:60
+Churros|Dulces y snacks|380|5|40|22|1.5||unidad:20
+Porras|Dulces y snacks|380|5.5|42|21|1.5||unidad:60
+Ensaimada|Dulces y snacks|430|7|50|22|1.5||unidad:80
+Napolitana de chocolate|Dulces y snacks|420|7|47|22|2||unidad:80
+Donut|Dulces y snacks|420|5|48|23|1.5||unidad:55
+Palmera de chocolate|Dulces y snacks|480|6|50|28|2||unidad:90
+Tortitas americanas (pancakes)|Dulces y snacks|230|6|28|10|1||unidad:40
+Gofre|Dulces y snacks|300|7|38|13|1||unidad:70
+Tarta de queso|Dulces y snacks|320|6|25|22|0.3||porción:120
+Tarta de chocolate|Dulces y snacks|400|5|45|22|2||porción:100
+Brownie|Dulces y snacks|450|5.5|55|23|2||porción:60
+Chocolate negro 70%|Dulces y snacks|580|8|33|42|11||onza:10;tableta:100
+Chocolate con leche|Dulces y snacks|540|7.5|56|31|2||onza:10;tableta:100
+Crema de cacao con avellanas|Dulces y snacks|540|6.3|57|31|3||cucharada:15
+Patatas fritas de bolsa|Dulces y snacks|540|6|50|34|4||puñado:20;bolsa pequeña:40;bolsa grande:150
+Nachos|Dulces y snacks|490|7|60|24|5||puñado:25
+Maíz tostado (kikos)|Dulces y snacks|440|7|64|17|8||puñado:25
+Gominolas|Dulces y snacks|340|6|80|0|0||unidad:4
+Barrita de cereales|Dulces y snacks|400|6|68|10|4||unidad:25
+Barrita de proteínas|Dulces y snacks|340|33|30|10|5||unidad:60
+Turrón blando (Jijona)|Dulces y snacks|560|13|40|38|4||porción:25
+Turrón duro (Alicante)|Dulces y snacks|520|11|47|31|4||porción:25
+Polvorón|Dulces y snacks|530|6|55|32|1.5||unidad:25
+Helado de vainilla|Dulces y snacks|200|3.5|24|10|0.5||bola:50;tarrina:100
+Azúcar|Dulces y snacks|400|0|100|0|0||cucharadita:5;sobre:8
+Miel|Dulces y snacks|304|0.3|82|0|0||cucharadita:7;cucharada:20
+Mermelada|Dulces y snacks|250|0.4|60|0.1|1||cucharada:20
+Mermelada sin azúcar añadido|Dulces y snacks|150|0.5|35|0.1|1.5||cucharada:20
+Cacao soluble (tipo Cola Cao)|Dulces y snacks|378|6|76|3.3|5||cucharada:10
+Cacao puro en polvo|Dulces y snacks|350|22|15|11|30||cucharada:7
+## Lácteos
+Leche entera|Lácteos|63|3.1|4.7|3.6|0|L|vaso:250;taza:200
+Leche semidesnatada|Lácteos|46|3.1|4.7|1.6|0|L|vaso:250;taza:200
+Leche desnatada|Lácteos|34|3.3|4.8|0.2|0|L|vaso:250;taza:200
+Leche sin lactosa semidesnatada|Lácteos|46|3.2|4.7|1.6|0|L|vaso:250;taza:200
+Bebida de avena|Lácteos|45|0.5|7|1.5|0.8|L|vaso:250
+Bebida de soja|Lácteos|40|3.3|2|1.9|0.5|L|vaso:250
+Bebida de almendra sin azúcar|Lácteos|14|0.5|0.3|1.1|0.3|L|vaso:250
+Yogur natural|Lácteos|61|3.8|4.7|3|0||unidad:125
+Yogur natural desnatado|Lácteos|38|4.3|5|0.1|0||unidad:125
+Yogur griego|Lácteos|140|3.5|4.5|10|0||unidad:125
+Yogur griego 0%|Lácteos|57|10|3.6|0.2|0||unidad:125
+Yogur de sabores|Lácteos|90|3.2|13.5|2.5|0||unidad:125
+Yogur proteico (+proteínas)|Lácteos|60|10|4|0.3|0||unidad:120
+Kéfir|Lácteos|60|3.5|4|3.2|0||vaso:200
+Queso fresco de Burgos|Lácteos|175|12|3|13|0||ración:60;tarrina:250
+Queso fresco batido 0%|Lácteos|46|8|3.5|0.1|0||cucharada:30;ración:125
+Queso cottage|Lácteos|98|11|3.4|4.3|0||ración:100
+Requesón|Lácteos|100|13|3|4|0||ración:100
+Mozzarella|Lácteos|250|18|2|19|0||bola:125
+Queso manchego curado|Lácteos|420|31|0.5|33|0||cuña fina:15;ración:40
+Queso semicurado|Lácteos|380|25|0.5|31|0||loncha:20;cuña fina:15
+Queso en lonchas (gouda/edam)|Lácteos|350|25|0.5|27|0||loncha:20
+Queso rallado|Lácteos|400|28|1|32|0||cucharada:7;puñado:20
+Queso de cabra (rulo)|Lácteos|300|18|1|25|0||rodaja:30
+Queso feta|Lácteos|265|14|4|21|0||ración:30
+Queso parmesano|Lácteos|400|35|0.5|28|0||cucharada rallado:6
+Queso crema (tipo Philadelphia)|Lácteos|250|5.5|4|23|0||cucharada:20
+Queso crema light|Lácteos|140|8|6|9|0||cucharada:20
+Nata para cocinar (18%)|Lácteos|190|2.5|3.5|18|0|L|cucharada:15;brick:200
+Nata para montar (35%)|Lácteos|340|2|3|35|0|L|cucharada:15
+Mantequilla|Lácteos|740|0.7|0.6|82|0||porción:10
+Margarina|Lácteos|540|0.2|0.5|60|0||porción:10
+Natillas|Lácteos|120|3.5|18|3.5|0||unidad:125
+Flan de huevo|Lácteos|120|3.5|20|2.8|0||unidad:100
+Arroz con leche|Lácteos|125|3.5|20|3.3|0.2||unidad:125
+Cuajada|Lácteos|90|5.4|4.6|5.7|0||unidad:125
+Batido de chocolate|Lácteos|75|3.5|11|1.8|0.5|L|brick:200
+Leche condensada|Lácteos|320|7.6|55|8|0||cucharada:20
+## Huevos
+Huevo|Huevos|143|12.6|0.7|9.5|0||unidad M (sin cáscara):55;unidad L (sin cáscara):62
+Clara de huevo|Huevos|52|10.9|0.7|0.2|0||unidad:33
+Yema de huevo|Huevos|322|16|3.6|26.5|0||unidad:17
+Huevo cocido|Huevos|150|12.5|1.1|10.6|0||unidad:55
+Huevo frito|Huevos|196|13.6|0.8|15.3|0||unidad:60
+Tortilla francesa|Huevos|185|11|0.7|15|0||de 1 huevo:60;de 2 huevos:120
+Huevos revueltos|Huevos|170|11|1.5|13|0||de 2 huevos:120
+Tortilla de patatas|Huevos|190|6.5|14|11.5|1.5||pincho:100;ración:150
+Claras pasteurizadas|Huevos|48|11|0.5|0.2|0||ración:100;vaso:200
+## Carnes
+Pechuga de pollo (cruda)|Carnes|110|23|0|1.8|0||filete:120;pechuga entera:250
+Pechuga de pollo a la plancha|Carnes|165|31|0|3.6|0||filete:100
+Muslo de pollo con piel (crudo)|Carnes|211|17.3|0|15.3|0||muslo (sin hueso):100
+Contramuslo de pollo sin piel (crudo)|Carnes|121|20|0|4.5|0||unidad:90
+Alitas de pollo (crudas)|Carnes|200|18|0|14|0||alita (sin hueso):30
+Pollo asado con piel|Carnes|215|26|0|12|0||ración:150;cuarto de pollo:200
+Pavo, pechuga (cruda)|Carnes|105|24|0|1|0||filete:120
+Ternera magra, filete (crudo)|Carnes|130|21|0|5|0||filete:120
+Ternera a la plancha|Carnes|190|29|0|8|0||filete:100
+Carne picada de vacuno|Carnes|215|18.5|0|15.5|0||ración:125
+Carne picada mixta (cerdo y vacuno)|Carnes|250|17|0.5|20|0||ración:125
+Entrecot de ternera (crudo)|Carnes|220|20|0|15|0||unidad:250
+Solomillo de ternera (crudo)|Carnes|140|21|0|6|0||filete:150
+Hamburguesa de vacuno (cruda)|Carnes|230|17|2|17|0||unidad:100
+Hamburguesa de pollo (cruda)|Carnes|160|16|4|9|0.5||unidad:100
+Lomo de cerdo (crudo)|Carnes|145|21|0|7|0||filete:100
+Lomo de cerdo a la plancha|Carnes|185|30|0|7|0||filete:90
+Solomillo de cerdo (crudo)|Carnes|120|21|0|4|0||ración:150
+Chuleta de cerdo (cruda)|Carnes|220|18|0|16.5|0||unidad (sin hueso):150
+Costillas de cerdo (crudas)|Carnes|280|16|0|24|0||ración:200
+Secreto ibérico (crudo)|Carnes|330|15|0|30|0||ración:150
+Panceta fresca|Carnes|400|14|0|38|0||loncha:30
+Bacon / beicon|Carnes|300|15|1|26|0||loncha:15
+Cordero, pierna (cruda)|Carnes|230|17|0|18|0||ración:150
+Conejo (crudo)|Carnes|135|21|0|5.5|0||ración:150
+Salchichas frescas de cerdo|Carnes|270|13|2|23|0||unidad:50
+Salchichas tipo Frankfurt|Carnes|270|12|2.5|23|0||unidad:40
+Albóndigas (crudas)|Carnes|230|15|6|16|0.5||unidad:25
+Hígado de ternera|Carnes|135|20|3.9|4|0||filete:100
+## Embutidos y fiambres
+Jamón serrano|Embutidos|240|30|0|13|0||loncha:15;ración:50
+Jamón ibérico|Embutidos|340|31|0|24|0||loncha:12;ración:50
+Jamón cocido extra|Embutidos|105|18|1.5|3|0||loncha:15
+Pechuga de pavo (fiambre)|Embutidos|100|18|2|2|0||loncha:12
+Lomo embuchado|Embutidos|270|40|1|12|0||loncha:8
+Chorizo|Embutidos|455|24|2|39|0||loncha:6;ración:40
+Salchichón|Embutidos|430|25|2|36|0||loncha:6;ración:40
+Fuet|Embutidos|450|26|2|37|0||ración:40
+Mortadela|Embutidos|300|14|1.5|26|0||loncha:15
+Morcilla|Embutidos|380|14|13|31|1||ración:80
+Sobrasada|Embutidos|470|15|2|45|0||cucharada:15
+Paté|Embutidos|300|12|3|27|0||cucharada:15
+Salami|Embutidos|410|22|1|35|0||loncha:5
+Cecina|Embutidos|250|37|0.5|11|0||loncha:10
+## Pescados y mariscos
+Merluza (cruda)|Pescados|77|17|0|1|0||filete:150
+Merluza a la plancha|Pescados|100|21|0|1.5|0||filete:130
+Bacalao fresco (crudo)|Pescados|80|18|0|0.7|0||filete:150
+Bacalao desalado|Pescados|85|19|0|0.8|0||lomo:150
+Salmón (crudo)|Pescados|200|20|0|13|0||lomo:125
+Salmón a la plancha|Pescados|230|25|0|14.5|0||lomo:110
+Salmón ahumado|Pescados|175|22|0|9.5|0||loncha:20;sobre:100
+Atún fresco (crudo)|Pescados|120|24|0|2.5|0||filete:150
+Atún en conserva al natural|Pescados|105|24|0|1|0||lata escurrida:56
+Atún en aceite (escurrido)|Pescados|200|26|0|10.5|0||lata escurrida:56
+Bonito en aceite (escurrido)|Pescados|220|25|0|13|0||lata escurrida:80
+Sardinas frescas|Pescados|145|18|0|8|0||unidad (limpia):40
+Sardinas en aceite (lata)|Pescados|220|24|0|13.9|0||lata escurrida:85
+Caballa fresca|Pescados|180|19|0|12|0||filete:120
+Caballa en aceite (lata)|Pescados|200|22|0|12.5|0||lata escurrida:85
+Lubina|Pescados|100|18.5|0|3|0||filete:120
+Dorada|Pescados|110|19.5|0|3.5|0||filete:120
+Rape|Pescados|70|15.5|0|0.8|0||ración:150
+Lenguado|Pescados|80|16.5|0|1.5|0||filete:120
+Panga|Pescados|70|15|0|1.5|0||filete:150
+Pez espada / emperador|Pescados|110|19.6|0|3.5|0||rodaja:150
+Trucha|Pescados|120|20|0|4.5|0||filete:120
+Boquerones frescos|Pescados|120|20|0|4.5|0||ración:100
+Boquerones en vinagre|Pescados|150|18|1|8|0||ración:50
+Anchoas en aceite|Pescados|210|29|0|10|0||unidad:4
+Surimi (palitos de cangrejo)|Pescados|95|7|15|0.5|0||unidad:16
+Varitas de pescado empanadas|Pescados|220|12|20|10|1||unidad:25
+Calamares (crudos)|Pescados|85|16|2|1.4|0||ración:150
+Calamares a la romana|Pescados|230|11|18|12.5|1||ración:150
+Sepia|Pescados|75|16|0.8|0.8|0||ración:150
+Pulpo cocido|Pescados|85|16.5|2|1.2|0||ración:150
+Pulpo a la gallega|Pescados|140|15|6|6.5|0.5||ración:200
+Gambas / langostinos (crudos)|Pescados|85|18.5|0|1|0||unidad pelada:10
+Gambas cocidas|Pescados|95|20|0|1.4|0||unidad pelada:10
+Gambas al ajillo|Pescados|190|16|1|14|0||cazuelita:150
+Mejillones al vapor (carne)|Pescados|110|17|4|2.5|0||unidad:8
+Mejillones en escabeche (lata)|Pescados|180|15|4|11.5|0||lata escurrida:70
+Almejas|Pescados|70|12.5|2.5|1|0||ración:100
+Berberechos (lata)|Pescados|50|10|2|0.5|0||lata escurrida:65
+## Frutos secos y semillas
+Almendras|Frutos secos|600|21|5|52|12||unidad:1.2;puñado:25
+Nueces|Frutos secos|654|15|7|65|6.7||nuez (2 mitades):5;puñado:25
+Avellanas|Frutos secos|640|15|6|61|10||puñado:25
+Anacardos|Frutos secos|580|18|27|46|3.3||puñado:25
+Pistachos (pelados)|Frutos secos|580|20|18|46|10||puñado:25
+Cacahuetes tostados|Frutos secos|590|25|12|49|8||puñado:25
+Crema de cacahuete|Frutos secos|600|25|13|50|6||cucharada:15
+Pipas de girasol peladas|Frutos secos|590|21|12|51|8.6||puñado:20
+Pipas de calabaza|Frutos secos|560|30|10|46|6||puñado:20
+Semillas de chía|Frutos secos|490|17|8|31|34||cucharada:12
+Semillas de lino|Frutos secos|534|18|2|42|27||cucharada:10
+Sésamo|Frutos secos|573|18|12|50|11.8||cucharada:9
+Frutos secos variados|Frutos secos|610|18|15|52|7||puñado:25
+Castañas asadas|Frutos secos|245|3.2|48|2.2|5.1||unidad:10
+Coco rallado|Frutos secos|660|7|7|64|16||cucharada:6
+## Aceites, salsas y condimentos
+Aceite de oliva virgen extra|Aceites y salsas|884|0|0|100|0||cucharadita:4;chorrito:5;cucharada:10
+Aceite de girasol|Aceites y salsas|884|0|0|100|0||cucharadita:4;cucharada:10
+Aceite de coco|Aceites y salsas|862|0|0|100|0||cucharada:10
+Manteca de cerdo|Aceites y salsas|890|0|0|99|0||cucharada:12
+Mayonesa|Aceites y salsas|700|1.1|1.5|76|0||cucharada:15
+Mayonesa ligera|Aceites y salsas|300|0.5|6|30|0||cucharada:15
+Ketchup|Aceites y salsas|110|1.3|25|0.2|0.3||sobre:12;cucharada:15
+Mostaza|Aceites y salsas|100|5|5|6|3||cucharadita:5
+Tomate frito|Aceites y salsas|80|1.5|10|3.5|1.5||cucharada:20;ración:100
+Tomate triturado|Aceites y salsas|25|1.2|3.5|0.2|1.2||ración:100
+Salsa barbacoa|Aceites y salsas|160|1|37|0.5|0.5||cucharada:15
+Alioli|Aceites y salsas|690|1|2|75|0||cucharada:15
+Salsa ranchera / César|Aceites y salsas|450|1.5|6|47|0||cucharada:15
+Salsa brava|Aceites y salsas|120|1|10|8.5|1||cucharada:15
+Salsa de soja|Aceites y salsas|60|8|6|0|0|L|cucharada:15
+Vinagre|Aceites y salsas|20|0|0.5|0|0|L|cucharada:15
+Vinagre de Módena|Aceites y salsas|88|0.5|17|0|0|L|cucharada:15
+Pesto|Aceites y salsas|450|5|6|45|1.5||cucharada:15
+Salsa carbonara (bote)|Aceites y salsas|130|3|5|11|0||ración:60
+Bechamel|Aceites y salsas|120|4|9|7.5|0||ración:100
+Guacamole|Aceites y salsas|160|2|4|14.5|4||cucharada:30
+Salsa de yogur|Aceites y salsas|230|2|6|22|0||cucharada:15
+## Bebidas
+Café solo|Bebidas|2|0.1|0|0|0|L|taza:50
+Café con leche|Bebidas|24|1.6|2.4|0.8|0|L|taza:200
+Cortado|Bebidas|20|1.2|1.6|0.8|0|L|taza:80
+Capuchino|Bebidas|40|2.4|3.5|1.8|0|L|taza:180
+Té / infusión|Bebidas|1|0|0.2|0|0|L|taza:250
+Zumo de naranja natural|Bebidas|45|0.7|10.4|0.2|0.2|L|vaso:200
+Zumo envasado|Bebidas|45|0.4|10.5|0.1|0|L|vaso:200;brick pequeño:200
+Refresco de cola|Bebidas|42|0|10.6|0|0|L|lata:330;vaso:250
+Refresco de cola zero|Bebidas|0.3|0|0|0|0|L|lata:330
+Refresco de naranja o limón|Bebidas|33|0|8|0|0|L|lata:330
+Bebida isotónica|Bebidas|20|0|4.8|0|0|L|lata:330;botella:500
+Bebida energética|Bebidas|45|0|11|0|0|L|lata 250 ml:250;lata 500 ml:500
+Cerveza|Bebidas|43|0.4|3.6|0|0|L|caña:200;botellín:200;tercio:330;lata:330;pinta:500
+Cerveza especial / extra (6-7%)|Bebidas|60|0.5|4|0|0|L|tercio:330;lata:330
+Cerveza sin alcohol|Bebidas|21|0.3|4.6|0|0|L|tercio:330;lata:330
+Vino tinto|Bebidas|85|0.1|2.6|0|0|L|copa:150
+Vino blanco|Bebidas|82|0.1|2.6|0|0|L|copa:150
+Cava|Bebidas|80|0.2|1.5|0|0|L|copa:120
+Tinto de verano|Bebidas|45|0|5|0|0|L|vaso:300
+Sangría|Bebidas|85|0.1|10|0|0|L|vaso:250
+Vermut|Bebidas|150|0|14|0|0|L|vaso:100
+Destilado 40% (ron, ginebra, whisky, vodka)|Bebidas|230|0|0|0|0|L|chupito:40;medida de cubata:50
+Cubata (combinado con refresco)|Bebidas|80|0|8.5|0|0|L|vaso:250
+Gin-tonic|Bebidas|74|0|7|0|0|L|copa:250
+## Platos preparados
+Paella mixta|Platos preparados|155|8|20|5|1||plato:350
+Macarrones con tomate y carne|Platos preparados|160|7|22|5|1.5||plato:300
+Espaguetis a la boloñesa|Platos preparados|150|7.5|20|4.5|1.5||plato:300
+Espaguetis a la carbonara|Platos preparados|200|7.5|23|9|1||plato:300
+Lasaña de carne|Platos preparados|160|8|14|8|1||ración:300
+Pizza margarita|Platos preparados|250|10|31|9|2||porción:100;pizza mediana:400
+Pizza de carne / barbacoa|Platos preparados|270|11|30|12|2||porción:110;pizza mediana:450
+Croquetas caseras|Platos preparados|240|8|22|13.5|1||unidad:30
+Empanadilla de atún|Platos preparados|290|9|28|16|1.5||unidad:40
+Empanada gallega|Platos preparados|280|10|30|13|1.5||porción:120
+Ensaladilla rusa|Platos preparados|170|3.8|10|13|1.5||ración:150
+Albóndigas en salsa|Platos preparados|180|11|7|12|1||ración:200
+Pollo al curry|Platos preparados|140|12|6|7.5|1||ración:250
+Arroz tres delicias|Platos preparados|165|5|26|4.5|1||ración:250
+Fajita de pollo|Platos preparados|200|12|20|8|2||unidad:150
+Burrito|Platos preparados|210|9|25|8|2.5||unidad:250
+Sushi (maki / nigiri)|Platos preparados|150|6|28|1.5|0.5||pieza:30
+Poke bowl de salmón|Platos preparados|150|7.5|18|5.5|1.5||bol:400
+Bocadillo de jamón serrano|Platos preparados|255|14|41|4.5|2.5||bocadillo (1/3 barra):130
+Bocadillo de tortilla|Platos preparados|230|8|32|7.5|2||bocadillo:220
+Sándwich mixto|Platos preparados|270|14|25|13|2||unidad:130
+Tostada con tomate y aceite|Platos preparados|220|5.5|33|7.5|2.5||media tostada:75;tostada (media barra):150
+Huevos rotos con jamón|Platos preparados|220|9|15|14|1.5||plato:350
+Patatas bravas|Platos preparados|180|2.5|20|10|2||ración:200
+Crema de verduras|Platos preparados|50|1.5|6|2.2|1.5||plato:300
+Sopa de pollo con fideos|Platos preparados|40|2.5|5|1|0.3||plato:300
+Caldo de pollo|Platos preparados|5|0.6|0.4|0.2|0|L|taza:250
+Gazpacho|Platos preparados|45|0.8|4|2.9|1|L|vaso:250
+Salmorejo|Platos preparados|90|1.8|8|5.5|1||cuenco:250
+Ensalada César|Platos preparados|150|8|7|10|1.5||plato:300
+Ensalada de pasta|Platos preparados|150|5|18|6.5|1.5||ración:250
+## Comida rápida
+Hamburguesa completa (restaurante)|Comida rápida|250|13|20|13|1.5||unidad:250
+Hamburguesa con queso (cadena rápida)|Comida rápida|260|13|25|12|1.5||unidad:120
+Patatas fritas (cadena rápida)|Comida rápida|320|3.4|41|15|3.8||ración mediana:115;ración grande:150
+Nuggets de pollo|Comida rápida|280|15|17|17|1||unidad:17
+Kebab en pan de pita|Comida rápida|215|11|20|10|1.5||unidad:350
+Perrito caliente|Comida rápida|250|9|25|13|1||unidad:120
+## Suplementos
+Proteína whey en polvo|Suplementos|380|78|6|5|0||cacito:30
+Proteína vegana en polvo|Suplementos|380|75|7|6|3||cacito:30
+Caseína en polvo|Suplementos|360|80|5|2|0||cacito:30
+Ganador de peso (gainer)|Suplementos|380|20|70|3|2||cacito:100
