@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:image_picker/image_picker.dart';
 
 import '../db.dart';
+import '../label_ocr.dart';
 import '../models.dart';
 import '../util.dart';
 import 'scanner_screen.dart';
@@ -8,7 +10,8 @@ import 'scanner_screen.dart';
 /// Crear o editar un alimento (valores por 100 g / 100 ml). Devuelve el alimento guardado.
 class FoodEditorScreen extends StatefulWidget {
   final Food food;
-  const FoodEditorScreen({super.key, required this.food});
+  final bool autoOcr;
+  const FoodEditorScreen({super.key, required this.food, this.autoOcr = false});
 
   @override
   State<FoodEditorScreen> createState() => _FoodEditorScreenState();
@@ -43,6 +46,58 @@ class _FoodEditorScreenState extends State<FoodEditorScreen> {
   static String _n(double? v, {bool zeroEmpty = false}) {
     if (v == null || (zeroEmpty && v == 0)) return '';
     return fmtNum(v, 2).replaceAll('.', '');
+  }
+
+  bool _reading = false;
+
+  @override
+  void initState() {
+    super.initState();
+    if (widget.autoOcr) WidgetsBinding.instance.addPostFrameCallback((_) => _readLabel(ImageSource.camera));
+  }
+
+  String _v(double v) => fmtNum(v, 2).replaceAll('.', '');
+
+  Future<void> _readLabel(ImageSource source) async {
+    final XFile? img;
+    try {
+      img = await ImagePicker().pickImage(source: source, maxWidth: 2400, maxHeight: 2400, imageQuality: 92);
+    } catch (e) {
+      if (mounted) toast(context, 'No se pudo abrir la cámara: $e');
+      return;
+    }
+    if (img == null) return;
+    setState(() => _reading = true);
+    try {
+      final r = await LabelOcr.readFile(img.path);
+      if (!mounted) return;
+      if (r.found == 0) {
+        toast(context, 'No he encontrado la tabla nutricional. Prueba más cerca, recta y con buena luz.');
+        return;
+      }
+      setState(() {
+        void put(TextEditingController c, double? v) {
+          if (v != null) c.text = _v(v);
+        }
+
+        put(kcal, r.kcal?.roundToDouble());
+        put(protein, r.protein);
+        put(carbs, r.carbs);
+        put(sugar, r.sugar);
+        put(fat, r.fat);
+        put(satFat, r.satFat);
+        put(fiber, r.fiber);
+        put(salt, r.salt);
+        if (r.liquid) liquid = true;
+        perServing = !r.perHundred;
+      });
+      toast(context, 'Leídos ${r.found} valores${r.perHundred ? ' (por 100 ${r.liquid ? 'ml' : 'g'})' : ' (parece por ración: indica sus gramos)'}. '
+          'Revísalos con la etiqueta.');
+    } catch (e) {
+      if (mounted) toast(context, 'Error al leer la etiqueta: $e');
+    } finally {
+      if (mounted) setState(() => _reading = false);
+    }
   }
 
   Future<void> _scan() async {
@@ -139,6 +194,36 @@ class _FoodEditorScreenState extends State<FoodEditorScreen> {
             onChanged: (v) => setState(() => liquid = v),
           ),
           const Divider(),
+          Card(
+            margin: const EdgeInsets.only(bottom: 12),
+            child: Padding(
+              padding: const EdgeInsets.all(12),
+              child: _reading
+                  ? const Row(children: [
+                      SizedBox(width: 22, height: 22, child: CircularProgressIndicator(strokeWidth: 2)),
+                      SizedBox(width: 14),
+                      Text('Leyendo la etiqueta…'),
+                    ])
+                  : Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                      Text('¿Tienes el envase delante?', style: ts.titleSmall),
+                      const SizedBox(height: 4),
+                      Text('Haz una foto a la tabla nutricional y relleno los valores por ti.', style: ts.bodySmall),
+                      const SizedBox(height: 8),
+                      Wrap(spacing: 8, children: [
+                        FilledButton.tonalIcon(
+                          onPressed: () => _readLabel(ImageSource.camera),
+                          icon: const Icon(Icons.document_scanner),
+                          label: const Text('Leer etiqueta'),
+                        ),
+                        TextButton.icon(
+                          onPressed: () => _readLabel(ImageSource.gallery),
+                          icon: const Icon(Icons.photo_library_outlined),
+                          label: const Text('Desde galería'),
+                        ),
+                      ]),
+                    ]),
+            ),
+          ),
           SegmentedButton<bool>(
             segments: [
               ButtonSegment(value: false, label: Text('Valores por 100 $u')),

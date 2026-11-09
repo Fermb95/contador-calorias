@@ -147,17 +147,20 @@ class _FoodSearchScreenState extends State<FoodSearchScreen> with SingleTickerPr
       context: context,
       builder: (c) => AlertDialog(
         title: const Text('Producto no encontrado'),
-        content: Text('El código $code no está en la base de datos. ¿Lo creas con los datos de la etiqueta? '
+        content: Text('El código $code no está en la base de datos. ¿Lo creas haciendo una foto a la tabla nutricional? '
             'Quedará guardado para la próxima vez.'),
         actions: [
           TextButton(onPressed: () => Navigator.pop(c, false), child: const Text('Cancelar')),
-          FilledButton(onPressed: () => Navigator.pop(c, true), child: const Text('Crear')),
+          FilledButton(onPressed: () => Navigator.pop(c, true), child: const Text('Leer etiqueta')),
         ],
       ),
     );
     if (create == true && mounted) {
       final f = await Navigator.push<Food>(
-          context, MaterialPageRoute(builder: (_) => FoodEditorScreen(food: Food(name: '', kcal: 0, protein: 0, carbs: 0, fat: 0, barcode: code))));
+          context,
+          MaterialPageRoute(
+              builder: (_) => FoodEditorScreen(
+                  food: Food(name: '', kcal: 0, protein: 0, carbs: 0, fat: 0, barcode: code), autoOcr: true)));
       if (f != null && mounted) await _open(f);
     }
   }
@@ -165,6 +168,14 @@ class _FoodSearchScreenState extends State<FoodSearchScreen> with SingleTickerPr
   Future<void> _create() async {
     final f = await Navigator.push<Food>(
         context, MaterialPageRoute(builder: (_) => FoodEditorScreen(food: Food(name: _q.text.trim(), kcal: 0, protein: 0, carbs: 0, fat: 0))));
+    if (f != null && mounted) await _open(f);
+  }
+
+  Future<void> _createFromLabel() async {
+    final f = await Navigator.push<Food>(
+        context,
+        MaterialPageRoute(
+            builder: (_) => FoodEditorScreen(food: Food(name: _q.text.trim(), kcal: 0, protein: 0, carbs: 0, fat: 0), autoOcr: true)));
     if (f != null && mounted) await _open(f);
   }
 
@@ -195,7 +206,10 @@ class _FoodSearchScreenState extends State<FoodSearchScreen> with SingleTickerPr
         const SizedBox(height: 20),
         OutlinedButton.icon(onPressed: _scan, icon: const Icon(Icons.qr_code_scanner), label: const Text('Escanear código de barras')),
         const SizedBox(height: 8),
-        OutlinedButton.icon(onPressed: _create, icon: const Icon(Icons.edit_note), label: const Text('Crear alimento')),
+        OutlinedButton.icon(
+            onPressed: _createFromLabel, icon: const Icon(Icons.document_scanner), label: const Text('Crear desde foto de la etiqueta')),
+        const SizedBox(height: 8),
+        OutlinedButton.icon(onPressed: _create, icon: const Icon(Icons.edit_note), label: const Text('Crear alimento a mano')),
         const SizedBox(height: 8),
         OutlinedButton.icon(onPressed: _createRecipe, icon: const Icon(Icons.menu_book), label: const Text('Crear receta')),
       ]);
@@ -275,9 +289,14 @@ class _FoodSearchScreenState extends State<FoodSearchScreen> with SingleTickerPr
         actions: [
           IconButton(icon: const Icon(Icons.qr_code_scanner), tooltip: 'Escanear', onPressed: _scan),
           PopupMenuButton<String>(
-            onSelected: (v) => v == 'food' ? _create() : _createRecipe(),
+            onSelected: (v) => switch (v) {
+              'label' => _createFromLabel(),
+              'food' => _create(),
+              _ => _createRecipe(),
+            },
             itemBuilder: (_) => const [
-              PopupMenuItem(value: 'food', child: Text('Crear alimento')),
+              PopupMenuItem(value: 'label', child: Text('Crear desde foto de la etiqueta')),
+              PopupMenuItem(value: 'food', child: Text('Crear alimento a mano')),
               PopupMenuItem(value: 'recipe', child: Text('Crear receta')),
             ],
           ),
